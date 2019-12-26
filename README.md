@@ -12,17 +12,13 @@ Things you may want to cover:
 * System dependencies
 	- Ubuntu
 
-
 * Database creation
 	- postgresql
-	
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# coffeeVending
+* How to run the code
+	- clone with https://github.com/iamsivas/coffeeVending.git
+	- go to coffeeVending folder
+	- bundle install
+	- rails db:create
+	- rails db:migrate
+	- rails s

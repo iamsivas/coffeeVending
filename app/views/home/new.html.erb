@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+
+<body>
+	<h1>Add new Item</h1>
+
+	<%= form_tag :action => 'create' do %>
+		<p><label for = "item_name">Select Item</label>:
+		<%= collection_select(:item_name, :item_name, @items, :id, :item_name, prompt: true) %></p>
+
+		<p>
+			<label for = "count">Count:</label>
+			<%= number_field 'availables', 'count' %>
+		</p>
+		<%= submit_tag "Create" %>
+	<% end -%>
+</body>
+</html>

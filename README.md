@@ -16,8 +16,8 @@ Things you may want to cover:
 	- postgresql
 
 * How to run the code
-	- clone with https://github.com/iamsivas/coffeeVending.git
-	- go to coffeeVending folder
+	- git clone https://github.com/iamsivas/coffeeVending.git
+	- cd coffeeVending folder
 	- bundle install
 	- rails db:create
 	- rails db:migrate

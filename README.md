@@ -21,4 +21,6 @@ Things you may want to cover:
 	- bundle install
 	- rails db:create
 	- rails db:migrate
+	- yarn add bootstrap@4.3.1 jquery popper.js
+	- yarn add toastr
 	- rails s
